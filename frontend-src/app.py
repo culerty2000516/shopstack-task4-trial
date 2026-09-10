@@ -4,7 +4,7 @@ from flask import Flask, jsonify
 
 app = Flask(__name__)
 
-VERSION = os.getenv("APP_VERSION", "0.1.0")
+VERSION = os.getenv("APP_VERSION", "0.2.0")
 
 
 @app.get("/")
